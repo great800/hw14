@@ -1,0 +1,4 @@
+---
+- hosts: "{{ hosts | default('servers') }}"
+  roles:
+    - common
